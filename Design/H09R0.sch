@@ -204,20 +204,6 @@
 <libraries>
 <library name="Hexabitz">
 <packages>
-<package name="C-0603">
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.016" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-</package>
 <package name="AD8495ARMZ">
 <circle x="-0.95" y="-3.125" radius="0.17" width="0" layer="21"/>
 <wire x1="-1.35" y1="1.625" x2="1.45" y2="1.625" width="0.1016" layer="51"/>
@@ -242,22 +228,6 @@
 <smd name="8" x="-0.975" y="2.2445" dx="0.45" dy="1" layer="1" rot="R180"/>
 <text x="-1.905" y="-1.905" size="1.016" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.883" y="-2.205" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="R-0402">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-1.14808125" y="0.6248375" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.145540625" y="-1.424940625" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 <package name="TLVH431ACDBVR">
 <wire x1="0.5334" y1="1.524" x2="0.3048" y2="1.524" width="0.1524" layer="21"/>
@@ -306,32 +276,8 @@
 <wire x1="0.5" y1="-1.5" x2="-0.5" y2="-1.5" width="0.1524" layer="21"/>
 <circle x="-2.3368" y="0.9398" radius="0.091578125" width="0.2" layer="21"/>
 </package>
-<package name="691311500102">
-<description>&lt;b&gt;WR-TBL Serie 311 - 5.08 mm Close Vertical PCB Header , 2 Pins</description>
-<wire x1="6.08" y1="3.8" x2="-6.08" y2="3.8" width="0.127" layer="21"/>
-<wire x1="-6.08" y1="3.8" x2="-6.08" y2="-4.7" width="0.127" layer="21"/>
-<wire x1="6.08" y1="-4.7" x2="6.08" y2="3.8" width="0.127" layer="21"/>
-<text x="-6.568740625" y="-2.37935" size="1.016" layer="25" rot="R90">&gt;NAME</text>
-<text x="7.71308125" y="-3.10453125" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
-<pad name="2" x="2.54" y="0" drill="1.6" diameter="2.6"/>
-<pad name="1" x="-2.54" y="0" drill="1.6" diameter="2.6" shape="square"/>
-<wire x1="-6.08" y1="-4.7" x2="-6" y2="-4.7" width="0.127" layer="21"/>
-<wire x1="-6" y1="-4.7" x2="-3.8" y2="-4.7" width="0.127" layer="21"/>
-<wire x1="-3.8" y1="-4.7" x2="6.08" y2="-4.7" width="0.127" layer="21"/>
-<rectangle x1="-6.08" y1="-4.69" x2="6.12" y2="-3.76" layer="21"/>
-</package>
 </packages>
 <symbols>
-<symbol name="C-0603">
-<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="2.921" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.524" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
-<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
 <symbol name="AD8495ARMZ">
 <pin name="+IN" x="-15.24" y="7.62" length="middle"/>
 <pin name="+VS" x="-15.24" y="-10.16" length="middle" direction="pwr"/>
@@ -347,21 +293,6 @@
 <wire x1="12.7" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
 <text x="-9.652" y="11.176" size="1.27" layer="95">&gt;NAME</text>
 <text x="-10.414" y="-15.494" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="R-0402">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="TLVH431ACDBVR">
 <text x="15.526709375" y="-4.058" size="1.27" layer="95" ratio="10" rot="SR180">&gt;NAME</text>
@@ -381,42 +312,8 @@
 <wire x1="7.62" y1="0" x2="7.62" y2="-1.27" width="0.1778" layer="94"/>
 <wire x1="7.62" y1="-1.27" x2="0" y2="-1.27" width="0.1778" layer="94"/>
 </symbol>
-<symbol name="691311500102">
-<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="10.16" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<pin name="2" x="10.16" y="0" visible="pin" length="middle" direction="pwr" rot="R180"/>
-<text x="-2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
-<text x="-2.54" y="7.62" size="1.27" layer="96">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-0603" prefix="C" uservalue="yes">
-<description>CAP CER  10% X7R 0603</description>
-<gates>
-<gate name="G$1" symbol="C-0603" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="C-0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CAPACITANCE" value="" constant="no"/>
-<attribute name="MFN" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OCTOPART_URL" value="" constant="no"/>
-<attribute name="TOLERANCE" value="" constant="no"/>
-<attribute name="VOLTAGE_RATING" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="AD8495ARMZ" prefix="U" uservalue="yes">
 <description>Description :
 IC THERMOCOUPLE A W/COMP 8MSOP</description>
@@ -445,29 +342,6 @@ IC THERMOCOUPLE A W/COMP 8MSOP</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R-0402" prefix="R" uservalue="yes">
-<description>Thick Film Resistors - SMD 0603</description>
-<gates>
-<gate name="G$1" symbol="R-0402" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="R-0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFN" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OCTOPART_URL" value="" constant="no"/>
-<attribute name="RESISTANCE" value="" constant="no"/>
-<attribute name="TOLERANCE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TLVH431ACDBVR" prefix="U">
 <description>LOW-VOLTAGE ADJUSTABLE PRECISION SHUNT REGULATORS</description>
 <gates>
@@ -486,28 +360,6 @@ IC THERMOCOUPLE A W/COMP 8MSOP</description>
 <attribute name="MFN" value="Texas Instruments"/>
 <attribute name="MPN" value="TLVH431ACDBVR"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/search?q=TLVH431ACDBVR&amp;start=0"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="691311500102" prefix="P" uservalue="yes">
-<description>Description :
-Pin header, straight Series WR-TBL / 311 Solder Pin [PCB, Through-Hole] 2P</description>
-<gates>
-<gate name="G$1" symbol="691311500102" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="691311500102">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MFN" value="691311500102" constant="no"/>
-<attribute name="MPN" value="Wurth Electronics Inc." constant="no"/>
-<attribute name="OCTOPART_URL" value="https://octopart.com/search?q=691311500102&amp;start=0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -836,6 +688,19 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 </package>
+<package name="R-0402" urn="urn:adsk.eagle:footprint:19666374/2" library_version="131">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="-0.381" y1="0.0254" x2="0.3302" y2="0.0254" width="0.2032" layer="21"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-1.14808125" y="0.6248375" size="0.762" layer="25">&gt;NAME</text>
+<text x="-1.145540625" y="-1.424940625" size="0.762" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="R-0603" urn="urn:adsk.eagle:package:1435818/6" type="model" library_version="102">
@@ -868,6 +733,12 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <package3d name="FB-0603" urn="urn:adsk.eagle:package:19666458/5" type="model" library_version="102">
 <packageinstances>
 <packageinstance name="FB-0603"/>
+</packageinstances>
+</package3d>
+<package3d name="R-0402" urn="urn:adsk.eagle:package:19666455/3" type="model" library_version="131">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<packageinstances>
+<packageinstance name="R-0402"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -970,6 +841,21 @@ Octopart Url : http://octopart.com/vlms1300-gs08-vishay-21709201</description>
 <text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+</symbol>
+<symbol name="R-0402" urn="urn:adsk.eagle:symbol:19857686/1" library_version="131">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1123,6 +1009,32 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="MFN" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OCTOPART_URL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R-0402" urn="urn:adsk.eagle:component:19857721/2" prefix="R" uservalue="yes" library_version="131">
+<description>Thick Film Resistors - SMD 0603</description>
+<gates>
+<gate name="G$1" symbol="R-0402" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R-0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19666455/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MFN" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OCTOPART_URL" value="" constant="no"/>
+<attribute name="RESISTANCE" value="" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2422,7 +2334,25 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 </library>
 <library name="HEXABITZ_CONNECTION_PARTS" urn="urn:adsk.eagle:library:20064553">
 <packages>
+<package name="1546111-2" urn="urn:adsk.eagle:footprint:19666368/2" library_version="112">
+<pad name="1" x="-2.54" y="0" drill="1.5" diameter="2.5" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.5" diameter="2.5"/>
+<wire x1="-6.24" y1="3.85" x2="-6.24" y2="-4.65" width="0.254" layer="39"/>
+<wire x1="5.89" y1="3.85" x2="5.89" y2="-4.65" width="0.254" layer="39"/>
+<wire x1="-6.24" y1="-4.65" x2="5.89" y2="-4.65" width="0.254" layer="39"/>
+<wire x1="-6.24" y1="3.85" x2="5.89" y2="3.85" width="0.254" layer="39"/>
+<rectangle x1="-6.3" y1="-4.6" x2="6" y2="-3.6" layer="39"/>
+<text x="-6.44" y="-6.79" size="1.016" layer="25">&gt;NAME</text>
+<text x="-6.44" y="-8.2" size="1.016" layer="27">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="1546111-2" urn="urn:adsk.eagle:package:19666461/4" type="model" library_version="112">
+<packageinstances>
+<packageinstance name="1546111-2"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="VSSA" urn="urn:adsk.eagle:symbol:40801048/2" library_version="65">
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
@@ -2435,6 +2365,16 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <circle x="0" y="1.27" radius="1.27" width="0.254" layer="94"/>
 <text x="-1.905" y="3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="VDDA" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="1546111-2" urn="urn:adsk.eagle:symbol:20049863/1" library_version="112">
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<pin name="1" x="10.16" y="2.54" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="2" x="10.16" y="0" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<text x="-2.54" y="5.842" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-4.318" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2460,6 +2400,30 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <device name="">
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1546111-2" urn="urn:adsk.eagle:component:20049882/3" prefix="P" uservalue="yes" library_version="112">
+<description>Conn Shrouded Header HDR 2 POS 5.08mm Solder ST Thru-Hole</description>
+<gates>
+<gate name="G$1" symbol="1546111-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1546111-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19666461/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MFN" value="TE Connectivity" constant="no"/>
+<attribute name="MPN" value="1546111-2" constant="no"/>
+<attribute name="OCTOPART_URL" value="https://octopart.com/1546111-2-te+connectivity-40393355" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -2806,7 +2770,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <part name="SUPPLY2" library="supply2" deviceset="VDD" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="P2" library="hexabitz_connectors" library_urn="urn:adsk.eagle:library:20064578" deviceset="HEXABIT_?_NO_P6" device="17.32" package3d_urn="urn:adsk.eagle:package:20064635/2"/>
-<part name="R11" library="Hexabitz" deviceset="R-0402" device="" value="1M">
+<part name="R11" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/3" value="1M">
 <attribute name="MFN" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-071ML"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0402FR-071ML&amp;start=0"/>
@@ -2821,7 +2785,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <part name="SUPPLY13" library="supply2" deviceset="VDD" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="Hexabitz" deviceset="TLVH431ACDBVR" device=""/>
-<part name="C13" library="Hexabitz" deviceset="C-0603" device="" value="10nF">
+<part name="C13" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="10nF">
 <attribute name="CAPACITANCE" value="10nF"/>
 <attribute name="MFN" value="KEMET"/>
 <attribute name="MPN" value="C0603C103K5RACTU"/>
@@ -2829,7 +2793,7 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE_RATING" value="50V"/>
 </part>
-<part name="C12" library="Hexabitz" deviceset="C-0603" device="" value="100nF">
+<part name="C12" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="100nF">
 <attribute name="CAPACITANCE" value="100nF"/>
 <attribute name="MFN" value="KEMET"/>
 <attribute name="MPN" value="C0603C104K8RACTU"/>
@@ -2840,8 +2804,8 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <part name="SUPPLY16" library="supply2" deviceset="VDD" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="VDD" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="JP1" library="Hexabitz" deviceset="691311500102" device="" value="691311500102"/>
-<part name="C14" library="Hexabitz" deviceset="C-0603" device="" value="100nF">
+<part name="JP1" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="1546111-2" device="" package3d_urn="urn:adsk.eagle:package:19666461/4" value="691311500102"/>
+<part name="C14" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="100nF">
 <attribute name="CAPACITANCE" value="100nF"/>
 <attribute name="MFN" value="KEMET"/>
 <attribute name="MPN" value="C0603C104K8RACTU"/>
@@ -2849,28 +2813,28 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <attribute name="TOLERANCE" value="10%"/>
 <attribute name="VOLTAGE_RATING" value="10V"/>
 </part>
-<part name="R4" library="Hexabitz" deviceset="R-0402" device="" value="1k">
+<part name="R4" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/3" value="1k">
 <attribute name="MFN" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-071KL"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0402FR-071KL&amp;start=0"/>
 <attribute name="RESISTANCE" value="1k"/>
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R5" library="Hexabitz" deviceset="R-0402" device="" value="100">
+<part name="R5" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/3" value="100">
 <attribute name="MFN" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07100RL"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0402FR-07100RL&amp;start=0"/>
 <attribute name="RESISTANCE" value="100"/>
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="R6" library="Hexabitz" deviceset="R-0402" device="" value="100">
+<part name="R6" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0402" device="" package3d_urn="urn:adsk.eagle:package:19666455/3" value="100">
 <attribute name="MFN" value="Yageo"/>
 <attribute name="MPN" value="RC0402FR-07100RL"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/search?q=RC0402FR-07100RL&amp;start=0"/>
 <attribute name="RESISTANCE" value="100"/>
 <attribute name="TOLERANCE" value="1%"/>
 </part>
-<part name="C10" library="Hexabitz" deviceset="C-0603" device="" value="10nF">
+<part name="C10" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="C-0603" device="" package3d_urn="urn:adsk.eagle:package:19666468/3" value="10nF">
 <attribute name="CAPACITANCE" value="10nF"/>
 <attribute name="MFN" value="KEMET"/>
 <attribute name="MPN" value="C0603C103K5RACTU"/>
@@ -2921,16 +2885,6 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <part name="SUPPLY17" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VDDA" device=""/>
 <part name="SUPPLY18" library="HEXABITZ_CONNECTION_PARTS" library_urn="urn:adsk.eagle:library:20064553" deviceset="VSSA" device=""/>
 <part name="D5" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="BOURNS_CDSOD323-T03SC" device="BOURNS_CDSOD323-T03SC_0_0" package3d_urn="urn:adsk.eagle:package:20526306/2"/>
-<part name="R8" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270.0R"/>
-<part name="R9" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/6" value="270.0R"/>
-<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="D3" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="VLMS1300-GS08" device="" package3d_urn="urn:adsk.eagle:package:20064571/3" value="YELLOW">
-<attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201?r=sp&amp;s=_gcP4_q8T1SC6PJQPTQ9yA"/>
-</part>
-<part name="D2" library="HEXABITZ_USER_INTERFACE_PARTS" library_urn="urn:adsk.eagle:library:20064563" deviceset="VLMS1300-GS08" device="" package3d_urn="urn:adsk.eagle:package:20064571/3" value="ORANGE">
-<attribute name="OCTOPART_URL" value="https://octopart.com/vlms1300-gs08-vishay-21709201?r=sp&amp;s=_gcP4_q8T1SC6PJQPTQ9yA"/>
-</part>
 </parts>
 <sheets>
 <sheet>
@@ -5401,28 +5355,6 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <instance part="D5" gate="G$1" x="135.12" y="90.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="131.2084" y="86.0436" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="R8" gate="G$1" x="229.735" y="173.445" smashed="yes" rot="R180">
-<attribute name="NAME" x="231.64" y="171.9464" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="232.275" y="176.747" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R9" gate="G$1" x="229.735" y="163.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="231.64" y="162.4214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="232.275" y="167.222" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="GND22" gate="1" x="250.69" y="159.475" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="253.23" y="156.935" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="GND23" gate="1" x="262.755" y="159.475" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="265.295" y="156.935" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="D3" gate="G$1" x="242.435" y="173.445" smashed="yes" rot="R180">
-<attribute name="NAME" x="245.737" y="177.001" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="247.007" y="169.635" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="D2" gate="G$1" x="242.435" y="163.92" smashed="yes" rot="R180">
-<attribute name="NAME" x="245.737" y="167.476" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="247.007" y="160.11" size="1.778" layer="96" rot="R180"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -5515,18 +5447,6 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="121.15" y1="120.105" x2="121.15" y2="122.645" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="250.69" y1="162.015" x2="250.69" y2="163.92" width="0.1524" layer="91"/>
-<wire x1="250.69" y1="163.92" x2="247.515" y2="163.92" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-</segment>
-<segment>
-<pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="247.515" y1="173.445" x2="262.755" y2="173.445" width="0.1524" layer="91"/>
-<wire x1="262.755" y1="173.445" x2="262.755" y2="162.015" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="USART3_TX" class="0">
@@ -5784,36 +5704,6 @@ Octopart Url : https://octopart.com/cstce8m00g52-r0-murata-7145559</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="121.15" y1="130.265" x2="121.15" y2="132.17" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="PB5"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="217.67" y1="173.445" x2="224.655" y2="173.445" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="PB4"/>
-<wire x1="217.67" y1="170.905" x2="221.48" y2="170.905" width="0.1524" layer="91"/>
-<wire x1="221.48" y1="170.905" x2="221.48" y2="163.92" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="221.48" y1="163.92" x2="224.655" y2="163.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="234.815" y1="163.92" x2="239.895" y2="163.92" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="234.815" y1="173.445" x2="239.895" y2="173.445" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
